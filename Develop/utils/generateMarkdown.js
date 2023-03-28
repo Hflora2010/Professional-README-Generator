@@ -16,7 +16,7 @@ function renderLicenseLink(license) {
     return '___NONE___'
   }
 
-  return `[license badge](https://${license})`
+  return `[license badge](https://opensource.org/licenses/${license}-orange)`
 }
 
 // TODO: Create a function that returns the license section of README
@@ -45,18 +45,19 @@ function generateMarkdown(data) {
 ## Usage
    ${data.usage}
 ## License
+![license badge](https://img.shields.io/badge/license-${license}-orange)
     ${renderLicenseBadge(data.license)};
     ${renderLicenseLink(data.license)};
     ${renderLicenseSection(data.license)};
 <br />
 This application is legally covered by the ${data.license} license. 
-<br>
+<br />
 ## Contributing
    ${data.contributing}
 ## Tests
    ${data.tests}
 ## Questions
-   ${data.questions}\n
+   ${data.questions}<br />
 <br />
    You can find me on GitHub: [${data.username}](https://github.com/${data.username})<br />
 <br />
