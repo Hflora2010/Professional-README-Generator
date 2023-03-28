@@ -28,12 +28,9 @@ const questions = [
         message: "What license do you choose for your project?",
         choices: [
             "Apache",
-            "Academic",
-            "GNU",
-            "ISC",
             "MIT",
             "Mozilla",
-            "Open"
+            "Perl"
         ],
         name: "license",
 
