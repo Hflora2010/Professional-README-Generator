@@ -15,13 +15,13 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Describe how to install your project?',
+        message: 'Describe how to install your project application?',
         name: 'installation',
     },
     {
         type: 'input',
-        message: 'Describe how to use your project application?',
-        name: 'usage',
+        message: 'Give a brief description of your project.',
+        name: 'description',
     },
     {
         type: "list",
@@ -49,11 +49,6 @@ const questions = [
         type: "input",
         name: "tests",
         message: "If applicable, provide any tests written for your application and provide examples on how to run them."
-    },
-    {
-        type: "input",
-        name: "questions",
-        message: "What can users do if they have an issue?"
     },
     {
         type: "input",
