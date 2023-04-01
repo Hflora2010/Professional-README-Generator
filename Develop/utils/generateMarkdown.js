@@ -32,7 +32,9 @@ function renderLicenseSection(license) {
 
 // function to generate markdown for README
 function generateMarkdown(data) {
+   console.log(data)
    const licenseBadge = renderLicenseBadge(data.license);
+   console.log(licenseBadge)
    const licenseLink = renderLicenseLink(data.license);
   return `
 <h1 align="center">${data.title}</h1>
