@@ -15,13 +15,13 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Describe how to install your project application?',
-        name: 'installation',
+        message: 'Give a brief description of your project.',
+        name: 'description',
     },
     {
         type: 'input',
-        message: 'Give a brief description of your project.',
-        name: 'description',
+        message: 'Describe how to install your project application?',
+        name: 'installation',
     },
     {
         type: "list",
