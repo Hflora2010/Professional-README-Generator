@@ -18,8 +18,8 @@ Below is a link to this project's application on my personal Github account: <br
 <a href="https://github.com/Hflora2010/Professional-README-Generator">Professional README Generator</a>
 <br>
 <br>
-Below is a video snippet of this application:
-![Alt text](Video-for-README.gif) /
+Below is a video snippet of this application:<br>
+![Alt text](./Video-for-README.gif) /
 
 You can access the full video at the following link: <br>
 <a href="https://drive.google.com/file/d/1yezbbe7S8hsXxSb6YacGxehyTl_j0y83/view"> Full README Generator Application Demonstration</a><br>
